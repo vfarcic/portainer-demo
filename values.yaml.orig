@@ -1,0 +1,10 @@
+service:
+  type: ClusterIP
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  hosts:
+  - host: portainer.acme.com
+    paths:
+    - path: "/" 

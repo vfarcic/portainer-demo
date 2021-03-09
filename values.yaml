@@ -1,0 +1,10 @@
+service:
+  type: ClusterIP
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  hosts:
+  - host: portainer.35.231.52.206.xip.io
+    paths:
+    - path: "/" 
