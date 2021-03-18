@@ -5,6 +5,6 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: nginx
   hosts:
-  - host: portainer.35.231.52.206.xip.io
+  - host: portainer.192.168.64.213.xip.io
     paths:
     - path: "/" 
